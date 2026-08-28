@@ -41,7 +41,10 @@ interpretativo se devuelve.
 Cuestionarios, formularios, colectas y portadas tratados como devoluciones: cada
 pregunta a quien es dueño de la respuesta, al cliente solo registro de percepción
 (nunca instrucciones), opciones mutuamente excluyentes, ninguna suposición incrustada,
-el instrumento muestra su estado.
+el instrumento muestra su estado — envío incluido. Con reglas validadas en campo:
+una elección nunca se dibuja como paso de secuencia, el material del cliente va en su
+lengua llana sin jerga del oficio, y un dato de calendario contradicho por su dueño se
+suspende en todos los materiales hasta verificar.
 
 ## 6 · Entrada de material preparado sin anclar
 

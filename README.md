@@ -42,9 +42,12 @@ clonar este repo dentro de `~/.claude/skills/mimir/` lo deja invocable como `/mi
 
 ## Procedencia y anonimización
 
-- Esta distribución deriva de la versión **v3** del despliegue original, validada por
-  su autor. Está **anonimizada**: sin nombres de personas, sin material de casos
-  reales, sin referencias resolubles al cuaderno de trabajo privado.
+- Esta distribución deriva de la versión **v3 cerrada** del despliegue original:
+  el núcleo v3 validado por su autor, más las reglas de instrumento que quedaron
+  convertidas (y probadas) durante un caso real de una semana — un proceso de grupo
+  con equipo de facilitación humano. Está **anonimizada**: sin nombres de personas,
+  sin material de casos reales, sin referencias resolubles al cuaderno de trabajo
+  privado.
 - Los códigos entre paréntesis en el prompt (A1, D8, F17…) son **marcadores de
   trazabilidad** del corpus original. Se conservan como procedencia; no hay que
   resolverlos para usar el agente.
