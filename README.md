@@ -64,5 +64,6 @@ opcionales: son el contrato del rol.
 
 ## Licencia
 
-Pendiente de decisión del autor. Hasta entonces: todos los derechos reservados;
-contacta antes de redistribuir.
+**CC BY-NC-SA 4.0** — puedes usar y adaptar Mímir citando al autor, sin uso comercial,
+y compartiendo cualquier derivado bajo la misma licencia. Texto completo en
+[LICENSE](LICENSE).
