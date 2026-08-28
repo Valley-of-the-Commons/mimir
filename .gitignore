@@ -1,0 +1,8 @@
+# material local del despliegue — nunca se versiona
+_local/
+_privado/
+*.log
+
+# sistema
+Thumbs.db
+.DS_Store
