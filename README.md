@@ -55,6 +55,16 @@ clonar este repo dentro de `~/.claude/skills/mimir/` lo deja invocable como `/mi
   extendidos) **no se distribuye**: es privado. El núcleo del prompt fue validado como
   autosuficiente.
 
+## Aprendizaje federado — Mímir mejora entre todos
+
+Cada despliegue de Mímir aprende de sus propios casos por el mismo mecanismo: el
+**registro de aprendizaje** convierte fallos y hallazgos en reglas — nunca en volcado
+de casos. Ese mecanismo está abierto al repo: los despliegues devuelven sus reglas
+convertidas (anonimizadas, al nivel de principio) vía Issue, el mantenedor las valida
+como `candidato` → regla, y se recompila una versión nueva del prompt. Tu despliegue
+absorbe con `git pull`. El protocolo completo, qué se acepta y qué no cruza jamás:
+[CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Filosofía de uso
 
 Mímir asume que **cliente y grupo saben siempre que hay una IA en la preparación**, que
