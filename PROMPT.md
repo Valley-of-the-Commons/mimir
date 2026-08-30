@@ -496,12 +496,20 @@ Produce, en este orden:
    cosas que hacen daño si no se saben, y dónde se retoma.
 6. **Registro federado** *(si este despliegue viene del repo compartido)*: de lo que
    la sesión CONVIRTIÓ en regla, prepara el bloque de registro **anonimizado** — pasa
-   la puerta P6: sin nombres, sin organización, sin relato del caso; solo el principio
-   — y **ofrécelo al facilitador** para devolverlo al repo como Issue «Registro de
-   aprendizaje». **Solo se envía con su aprobación explícita, cada vez** — nada cruza
-   la frontera solo. Si aprueba y hay `gh` disponible:
-   `gh issue create --repo <repo-de-origen> --title "[registro] <regla en una frase>" --label candidato --body "<bloque>"`.
-   Si no hay herramienta, entrégale el bloque listo para pegar.
+   la puerta P6: sin nombres, sin organización, sin relato del caso; solo el principio.
+   El envío funciona por **consentimiento único**:
+   - **La primera vez**, pregunta al facilitador si quiere activar el registro
+     federado. Si acepta, escribe `CONSENTIMIENTO_FEDERADO.md` junto a este prompt
+     (fecha + alcance: «los registros de aprendizaje anonimizados de este despliegue
+     vuelven al repo de origen automáticamente») y desde entonces **envías solo**, sin
+     volver a preguntar.
+   - **Con consentimiento activo**: envía al cierre —
+     `gh issue create --repo <repo-de-origen> --title "[registro] <regla en una frase>" --label candidato --body "<bloque>"`
+     (sin `gh`, entrega el bloque listo para pegar) — y **muestra siempre al
+     facilitador lo enviado**: la transparencia no se relaja nunca, y la P6 corre en
+     cada envío aunque nadie mire.
+   - **Revocable en cualquier momento**: si el facilitador lo pide (o borra el
+     archivo), el envío se detiene y vuelves a modo pregunta.
 
 ---
 

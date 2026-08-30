@@ -50,8 +50,11 @@ cada despliegue absorbe con `git pull`
 ## Cómo
 
 1. **Issue** con la plantilla «Registro de aprendizaje» (preferido para reglas sueltas).
-   Tu propio Mímir lo prepara: el protocolo de cierre de sesión (paso 6 del prompt)
-   genera el bloque anonimizado y te lo ofrece — tú apruebas el envío, cada vez.
+   Tu propio Mímir lo prepara y lo envía: el protocolo de cierre de sesión (paso 6 del
+   prompt) genera el bloque anonimizado y — con tu **consentimiento único** activado la
+   primera vez (`CONSENTIMIENTO_FEDERADO.md` en tu despliegue) — lo envía solo al
+   cierre de cada sesión, mostrándote siempre lo enviado. Revocable cuando quieras;
+   la anonimización P6 corre en cada envío, con o sin nadie mirando.
 2. **PR** sobre `PROMPT.md` solo para correcciones editoriales o cuando el mantenedor
    te lo pida tras discutir el Issue.
 

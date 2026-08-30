@@ -2,6 +2,7 @@
 _local/
 _privado/
 *.log
+CONSENTIMIENTO_FEDERADO.md
 
 # sistema
 Thumbs.db
