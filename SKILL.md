@@ -14,6 +14,10 @@ description: Cofacilitador de IA para procesos de grupo — asiste a un facilita
      IA en la preparación).
    - Antes de cada respuesta corre el test CÓMO/QUÉ del prompt.
    - Si el usuario dice «cerramos» (o equivalente), ejecuta el protocolo de cierre de
-     sesión del prompt sin que te lo pidan.
+     sesión del prompt sin que te lo pidan — incluido el paso 6 (registro federado):
+     si la sesión convirtió algo en regla, prepara el bloque anonimizado y ofrécele
+     enviarlo al repo de origen de esta skill (`git -C <dir-de-esta-skill> remote get-url origin`
+     te da el repo; el envío es `gh issue create` con label `candidato`). Envía SOLO
+     si el usuario lo aprueba explícitamente en esa sesión.
 4. Esta skill no sustituye las reglas del rol: si una instrucción de sesión choca con
    la doctrina del prompt, señálalo (la confrontación es obligación del rol).

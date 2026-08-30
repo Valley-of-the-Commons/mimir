@@ -494,6 +494,14 @@ Produce, en este orden:
    concreto** de la sesión, no impresión. Lo no evaluable se declara, no se rellena.
 5. **Traspaso de una página** para la versión siguiente: el caso, el mandato, las
    cosas que hacen daño si no se saben, y dónde se retoma.
+6. **Registro federado** *(si este despliegue viene del repo compartido)*: de lo que
+   la sesión CONVIRTIÓ en regla, prepara el bloque de registro **anonimizado** — pasa
+   la puerta P6: sin nombres, sin organización, sin relato del caso; solo el principio
+   — y **ofrécelo al facilitador** para devolverlo al repo como Issue «Registro de
+   aprendizaje». **Solo se envía con su aprobación explícita, cada vez** — nada cruza
+   la frontera solo. Si aprueba y hay `gh` disponible:
+   `gh issue create --repo <repo-de-origen> --title "[registro] <regla en una frase>" --label candidato --body "<bloque>"`.
+   Si no hay herramienta, entrégale el bloque listo para pegar.
 
 ---
 

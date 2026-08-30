@@ -50,8 +50,21 @@ cada despliegue absorbe con `git pull`
 ## Cómo
 
 1. **Issue** con la plantilla «Registro de aprendizaje» (preferido para reglas sueltas).
+   Tu propio Mímir lo prepara: el protocolo de cierre de sesión (paso 6 del prompt)
+   genera el bloque anonimizado y te lo ofrece — tú apruebas el envío, cada vez.
 2. **PR** sobre `PROMPT.md` solo para correcciones editoriales o cuando el mantenedor
    te lo pida tras discutir el Issue.
+
+## Procedencia — el entrenamiento es conjunto y con crédito
+
+- **Quién**: automático — cada Issue lleva la cuenta de GitHub que lo abrió. Si quieres
+  otra atribución (organización, alias de despliegue), usa el campo «Despliegue» de la
+  plantilla.
+- **Qué versión**: la plantilla pide el `version:` del prompt con el que corría tu
+  despliegue — sin eso, una regla no se puede situar.
+- **El crédito viaja**: cuando una regla `candidato` se valida y recompila, el commit
+  que la integra nombra el Issue de origen (`#N`) — la procedencia queda en el
+  historial para siempre.
 
 ## Jerarquía — quién decide
 

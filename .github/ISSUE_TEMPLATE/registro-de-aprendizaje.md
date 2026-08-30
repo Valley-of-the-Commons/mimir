@@ -27,3 +27,6 @@ funcionó:     [qué sí salió bien, y por qué — también se registra lo que
 **¿Quién detectó el fallo — el humano o Mímir?** (métrica invertida):
 
 **Versión del prompt con la que corría tu despliegue** (frontmatter `version:`):
+
+**Despliegue** (alias u organización para el crédito — opcional; si lo dejas vacío, la
+procedencia es tu cuenta de GitHub):
