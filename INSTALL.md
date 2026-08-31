@@ -14,7 +14,7 @@ documentación. Cualquier ecosistema que acepte un system prompt puede correr M�
 ## Opción A · Claude Code (como skill)
 
 ```bash
-git clone <url-de-este-repo> ~/.claude/skills/mimir
+git clone https://github.com/Valley-of-the-Commons/mimir ~/.claude/skills/mimir
 ```
 
 El repo incluye `SKILL.md` en la raíz, así que la carpeta clonada ya es una skill

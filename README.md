@@ -30,7 +30,12 @@ mimir/
 ├── HABILIDADES.md   ← enumeración de capacidades y límites
 ├── INSTALL.md       ← instalación en distintos ecosistemas
 ├── SKILL.md         ← definición de skill para Claude Code (el repo se clona como skill)
-└── README.md
+├── CONTRIBUTING.md  ← el ciclo de aprendizaje federado: qué se acepta y qué no cruza
+├── LICENSE          ← CC BY-NC-SA 4.0
+├── README.md
+└── .github/
+    └── ISSUE_TEMPLATE/
+        └── registro-de-aprendizaje.md  ← plantilla del registro federado (puerta P6)
 ```
 
 ## Instalación rápida
